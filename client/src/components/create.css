@@ -1,0 +1,85 @@
+.top-sec{
+    margin: 1rem 2rem 1rem 2rem;
+}
+
+.logo{
+    margin-top: -1px;
+    height: 150px;  
+}
+
+.your-component {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .your-component label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .your-component input,
+  .your-component textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+  }
+  
+  .difficulty-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .difficulty-option {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .difficulty-option.dark {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .difficulty-option.light {
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .difficulty-option:hover {
+    background-color: #eee;
+  }
+  
+
+.submit {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    background-color: rgb(87, 81, 81);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit:hover {
+    background-color: #0056b3;
+  }
+ 
+  
+  
+    
